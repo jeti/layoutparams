@@ -25,7 +25,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -35,10 +34,10 @@ dependencies {
 
 ext {
 
-    bintrayRepo = 'android'
+    bintrayRepo = 'io'
     bintrayName = 'layoutparams'
 
-    publishedGroupId = 'io.jeti.ui'
+    publishedGroupId = 'io.jeti'
     libraryName = 'layoutparams'
     artifact = 'layoutparams'
 
@@ -49,11 +48,11 @@ ext {
 
     libraryVersion = '1.0.0'
 
-    developerId = 'mholzel'
+    developerId = 'jeti'
     developerName = 'Matthew Holzel'
     developerEmail = 'matthew.holzel@gmail.com'
 
-    organization = 'mholzel'
+    organization = 'jeti'
 
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
