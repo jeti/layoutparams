@@ -1,1 +1,1 @@
-# Please visit https://jeti.github.io/layoutparams/ for a description of this project and its documentation.
+# Please visit [layoutparams.jeti.io](http://layoutparams.jeti.io/) for a description of this project and its documentation.
