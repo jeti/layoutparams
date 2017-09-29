@@ -1,4 +1,4 @@
-package io.jeti.ui.layoutparams;
+package io.jeti.layoutparams;
 
 import android.widget.LinearLayout.LayoutParams;
 
